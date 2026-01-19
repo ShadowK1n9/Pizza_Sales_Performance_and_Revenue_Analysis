@@ -10,6 +10,19 @@ Findings are presented in a clear and accessible manner for both **technical and
 
 ---
 
+## Methodology
+
+This analysis followed a structured data analytics process to ensure accuracy and reliability. The sales data was cleaned and validated to remove inconsistencies and confirm numerical correctness. Date and time fields were standardized to support time-based analysis, and additional features such as time-of-day groupings, pizza categories, and pricing ranges were created to deepen insight. Exploratory analysis was then carried out to identify demand patterns, customer preferences, and product performance. Finally, results were aggregated to highlight key revenue drivers, and insights were presented through an interactive dashboard designed to support quick, executive-level decision-making.
+
+
+## Sales Performance Dashboard
+
+![Pizza Sales Dashboard](Assets/Dashboard.png)
+
+This dashboard provides a consolidated view of pizza sales performance, highlighting order volume trends, customer preferences, and revenue drivers across time periods, product categories, and pizza sizes. It enables rapid assessment of peak demand periods, high-performing products, and pricing effectiveness, supporting data-driven decisions around staffing, promotions, and product strategy.
+
+---
+
 ## Key Insights
 
 
@@ -21,7 +34,7 @@ Orders are significantly lower in the **morning and late-night hours**, indicati
 
 From a weekly perspective, **Fridays and weekends** record the highest number of orders, suggesting increased purchasing toward the end of the week, likely driven by leisure activities, social gatherings, and family meals.
 
-  ![Order days chart](Assets/peak_order_days.png)
+![Order days chart](Assets/peak_order_days.png)
 
 
 ## Customer Preferences
@@ -52,7 +65,6 @@ leading both in **order volume and revenue contribution**.
 
 Although the **Classic category** records the highest overall sales volume and revenue, all pizza categories contribute meaningfully to overall business performance.
 
----
 
 ## Revenue and Pricing Patterns
 
@@ -62,7 +74,6 @@ Most orders fall within the **$10–$20 price range**, making this the most comm
 
 Pricing increases consistently with pizza size, and **Classic pizzas offer the widest range of premium sizes**, including extra-large options that command the highest prices.
 
----
 
 ## Overall Sales Performance
 
@@ -74,7 +85,6 @@ Key performance metrics include:
 
 These figures indicate **strong demand**, **steady revenue flow**, and **diverse customer ordering behavior**.
 
----
 
 ## Conclusion and Recommendations
 
@@ -86,7 +96,6 @@ Based on the analysis, the following actions are recommended:
 4. **Maintain competitive pricing within the $10–$20 range**, which drives the highest order volume.
 5. **Encourage higher order values** through upselling strategies such as add-ons, second-pizza discounts, and family meal deals.
 
----
 
 ## Tools Used
 
@@ -95,5 +104,4 @@ Based on the analysis, the following actions are recommended:
 
 ---
 
-*This project demonstrates the use of SQL-driven analysis to extract business insights from transactional sales data and translate findings into practical recommendations.*
-
+*This project demonstrates the use of data analysis and dashboard-driven insight to support executive decision-making in a sales-focused business environment.*
