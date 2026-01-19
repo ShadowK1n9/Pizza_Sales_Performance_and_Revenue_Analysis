@@ -12,7 +12,6 @@ Findings are presented in a clear and accessible manner for both **technical and
 
 ## Key Insights
 
----
 
 ## Order Timing and Demand Patterns
 
@@ -20,11 +19,10 @@ Customer demand is highest during the **afternoon and evening periods**, with af
 
 Orders are significantly lower in the **morning and late-night hours**, indicating limited demand during these periods.
 
-From a weekly perspective, **Fridays and weekends** record the highest number of orders, suggesting increased purchasing toward the end of the week—likely driven by leisure activities, social gatherings, and family meals.
+From a weekly perspective, **Fridays and weekends** record the highest number of orders, suggesting increased purchasing toward the end of the week, likely driven by leisure activities, social gatherings, and family meals.
 
-![Order days chart](Assets/Peak order days.png)
+  ![Order days chart](Assets/peak_order_days.png)
 
----
 
 ## Customer Preferences
 
@@ -32,13 +30,12 @@ Customers show a strong preference for **non-vegetarian pizzas**, which account 
 
 Among pizza sizes, **large pizzas are the most popular**, followed closely by medium and small sizes. This suggests a preference for **value-for-money** options and shared meals.
 
-![Pizza Size Distribution](images/pizza_size_distribution.png)
+![Pizza Size Distribution](Assets/most_ordered_pizza_size.png)
 
 While most customers place **single-pizza orders**, a notable portion of orders include **multiple pizza types**, indicating a tendency toward variety within the same purchase.
 
-![Multiple Pizza Orders](images/multiple_pizza_orders.png)
+![Customer Preference](Assets/customer_prefeerence.png)
 
----
 
 ## Popular and High-Performing Products
 
@@ -93,7 +90,6 @@ Based on the analysis, the following actions are recommended:
 
 ## Tools Used
 
-- SQL (MySQL)
 - Excel (Data Validation)
 - GitHub (Version Control & Documentation)
 
